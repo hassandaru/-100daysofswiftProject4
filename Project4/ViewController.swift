@@ -9,7 +9,8 @@ import UIKit
 import WebKit
 
 class ViewController: UIViewController, WKNavigationDelegate {
-    var websites = ["apple.com", "hackingwithswift.com"]
+    var websites = ["apple.com", "hackingwithswift.com", "youtube.com", "facebook.com"]
+    var blockedSite = "facebook.com"
     var progressView: UIProgressView!
     var webView: WKWebView!
     
@@ -78,6 +79,14 @@ class ViewController: UIViewController, WKNavigationDelegate {
         if let host = url?.host {
             for website in websites {
                 if host.contains(website) {
+                    if host.contains(blockedSite) {
+                        //website is blocked
+                        let ac = UIAlertController(title: blockedSite, message: "Sorry! this website is blocked", preferredStyle: .alert)
+                        ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: nil))
+                        present(ac, animated: true)
+                        decisionHandler(.cancel)
+                        return
+                    }
                     decisionHandler(.allow)
                     return
                 }
