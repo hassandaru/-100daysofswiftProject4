@@ -13,6 +13,7 @@
 		7E56962B28AB9FD200C6C716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E56962928AB9FD200C6C716 /* Main.storyboard */; };
 		7E56962D28AB9FDA00C6C716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E56962C28AB9FDA00C6C716 /* Assets.xcassets */; };
 		7E56963028AB9FDA00C6C716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E56962E28AB9FDA00C6C716 /* LaunchScreen.storyboard */; };
+		7E56963828AC7F0300C6C716 /* DetailWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E56963728AC7F0300C6C716 /* DetailWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7E56962C28AB9FDA00C6C716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E56962F28AB9FDA00C6C716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E56963128AB9FDA00C6C716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E56963728AC7F0300C6C716 /* DetailWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7E56962328AB9FD200C6C716 /* AppDelegate.swift */,
 				7E56962528AB9FD200C6C716 /* SceneDelegate.swift */,
 				7E56962728AB9FD200C6C716 /* ViewController.swift */,
+				7E56963728AC7F0300C6C716 /* DetailWebViewController.swift */,
 				7E56962928AB9FD200C6C716 /* Main.storyboard */,
 				7E56962C28AB9FDA00C6C716 /* Assets.xcassets */,
 				7E56962E28AB9FDA00C6C716 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E56963828AC7F0300C6C716 /* DetailWebViewController.swift in Sources */,
 				7E56962828AB9FD200C6C716 /* ViewController.swift in Sources */,
 				7E56962428AB9FD200C6C716 /* AppDelegate.swift in Sources */,
 				7E56962628AB9FD200C6C716 /* SceneDelegate.swift in Sources */,
